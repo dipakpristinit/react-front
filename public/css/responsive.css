@@ -1,0 +1,125 @@
+/* Start - Responsive Styles */
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+	.main-bg-img {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo-box img {
+		width: 60px;
+	}
+	header {
+		padding: 15px 0 15px;
+	}
+	.section {
+		padding: 50px 0 !important;
+	}
+	.home-banner {
+		padding-top: 165px;
+	}
+	.product-list h2 {
+		font-size: 45px;
+	}
+	.our-guarantees,
+	.product-back {
+		background: rgb(142, 52, 239);
+	}
+	.main-heading {
+		margin-bottom: 0;
+	}
+	.service-slider .slick-dots {
+		bottom: -30px;
+	}
+	.container.copy {
+		text-align: center;
+	}
+	.lg-right {
+		display: block !important;
+		float: none;
+	}
+	.footer-links {
+		margin-bottom: 25px;
+	}
+}
+/*=================Mobile Media Query==================*/
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+	.logo-box img {
+		width: 60px;
+	}
+	header {
+		padding: 15px 0 15px;
+	}
+	.home-banner h2 {
+		font-size: 40px;
+		line-height: 45px;
+	}
+	.home-banner {
+		padding-top: 150px;
+	}
+	.home-banner a.btn,
+	.btn.btn-white {
+		padding: 10px 15px;
+	}
+	.main-bg-img {
+		width: 100%;
+	}
+	.product-list h2,
+	.main-heading .title {
+		font-size: 33px;
+		line-height: 35px;
+	}
+	.main-heading {
+		margin-bottom: 0;
+	}
+	.sub-title {
+		font-size: 15px;
+	}
+	.section {
+		padding: 50px 0 !important;
+	}
+	.product-list .list-row .plan {
+		margin-top: 20px;
+	}
+	.our-guarantees,
+	.product-back {
+		background: rgb(142, 52, 239);
+	}
+	.title {
+		font-size: 40px;
+	}
+	.service-slider .slick-dots {
+		bottom: -25px;
+	}
+	.box-full-size {
+		padding: 20px;
+	}
+	.box-full-size .title {
+		font-size: 26px;
+	}
+	.get-start p {
+		font-size: 13px;
+	}
+	.box-full-size .btn.lg {
+		height: 55px;
+		line-height: 32px;
+	}
+	.product-features p {
+		margin: 15px 0 40px;
+	}
+	.footer-links {
+		margin-bottom: 25px;
+	}
+	.footer-links:last-child {
+		margin-bottom: 0px;
+	}
+	#footer .footer-top .footer-links h5 {
+		margin-bottom: 5px;
+	}
+	#footer .copyright {
+		text-align: center;
+	}
+	#footer .social-links {
+		padding-left: 0;
+	}
+}
